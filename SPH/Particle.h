@@ -7,9 +7,6 @@ public:
 	Particle();
 	~Particle();
 
-	Vec3 GetPos() { return m_position; };
-
-private:
 	float m_mass;
 	float m_pressure;
 	float m_density;
